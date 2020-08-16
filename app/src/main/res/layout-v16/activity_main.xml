@@ -409,7 +409,8 @@
                             android:fontFamily="sans-serif-light"
                             android:layout_alignParentRight="true"
 
-                            android:gravity="end" />
+                            android:gravity="end"
+                            android:layout_alignParentEnd="true" />
 
                     </RelativeLayout>
                     
@@ -434,7 +435,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-light"
                             android:text="Total Deaths"
-                            android:textSize="18sp" tools:targetApi="jelly_bean"/>
+                            android:textSize="18sp"/>
                         
                         <TextView
                             android:layout_width="fill_parent"
@@ -514,11 +515,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_margin="20dp"
-        android:background="@color/colorPrimary"
+        android:background="#D52320"
         android:text="@string/track_countries"
         android:textColor="@android:color/white"
         android:textSize="16sp"
         android:padding="5dp"
         android:onClick="goTrackCountries"/>
-    
+
 </RelativeLayout>
