@@ -1,10 +1,6 @@
 package myapplication2.example.covid_19stats;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -15,6 +11,9 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -23,15 +22,12 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.leo.simplearcloader.SimpleArcLoader;
 
-import org.eazegraph.lib.models.PieModel;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import myapplication2.example.covid_19stats.CountryModel;
 
 public class AffectedCountries extends AppCompatActivity {
 
@@ -90,7 +86,7 @@ public class AffectedCountries extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(item.getItemId()==android.R.id.home)
             finish();
-        
+
         return super.onOptionsItemSelected(item);
     }
 

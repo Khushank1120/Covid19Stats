@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="@color/color_white"
     tools:context=".MainActivity"
-    android:backgroundTint="#981414">
+    android:backgroundTint="#931A25">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardViewGraph"
@@ -17,13 +17,13 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
-        app:cardCornerRadius="15dp"
+        app:cardCornerRadius="18dp"
         app:cardElevation="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="176dp"
-            android:background="#FFFFFF"
+            android:layout_height="match_parent"
+            android:background="#EDE7E5"
             android:orientation="horizontal"
             android:weightSum="2">
 
@@ -53,15 +53,16 @@
                     <View
                         android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:background="@color/cases" />
+                        android:background="#E8A658" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
                         android:text="Total Cases"
+                        android:textStyle="bold"
                         android:textColor="@color/cases"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </LinearLayout>
 
@@ -81,8 +82,9 @@
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
                         android:text="Recovered"
+                        android:textStyle="bold"
                         android:textColor="#32BA39"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </LinearLayout>
 
@@ -95,15 +97,16 @@
                     <View
                         android:layout_width="25dp"
                         android:layout_height="match_parent"
-                        android:background="@color/colorPrimary" />
+                        android:background="@color/color_one" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="88dp"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
                         android:text="Deaths"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="15dp" />
+                        android:textStyle="bold"
+                        android:textColor="@color/color_one"
+                        android:textSize="17dp" />
 
                 </LinearLayout>
 
@@ -123,8 +126,9 @@
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
                         android:text="Active"
+                        android:textStyle="bold"
                         android:textColor="@color/active"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </LinearLayout>
 
@@ -143,7 +147,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
         app:cardElevation="10dp"
-        app:cardCornerRadius="15dp">
+        app:cardCornerRadius="10dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -169,7 +173,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#FFFFFF"
+                    android:background="#EDE7E5"
                     android:orientation="vertical">
 
                     <TextView
@@ -204,6 +208,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-light"
                             android:text="Cases"
+                            android:textStyle="bold"
                             android:textSize="18sp" />
 
                         <TextView
@@ -243,6 +248,8 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-light"
                             android:text="Recovered"
+                            android:textStyle="bold"
+
                             android:textSize="18sp" />
 
                         <TextView
@@ -281,6 +288,8 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-light"
                             android:text="Critical"
+                            android:textStyle="bold"
+
                             android:textSize="18sp" />
 
                         <TextView
@@ -319,6 +328,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-light"
                             android:text="Active"
+                            android:textStyle="bold"
                             android:textSize="18sp" />
 
                         <TextView
@@ -357,6 +367,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-light"
                             android:text="Cases Today"
+                            android:textStyle="bold"
                             android:textSize="18sp" />
 
                         <TextView
@@ -395,6 +406,8 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-light"
                             android:text="Deaths Today"
+                            android:textStyle="bold"
+
                             android:textSize="18sp" />
 
                         <TextView
@@ -433,6 +446,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-light"
                             android:text="Total Deaths"
+                            android:textStyle="bold"
                             android:textSize="18sp"
                             tools:targetApi="jelly_bean" />
 
@@ -472,6 +486,7 @@
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-light"
                             android:text="Affected Countries"
+                            android:textStyle="bold"
                             android:textSize="18sp" />
 
                         <TextView
@@ -514,6 +529,8 @@
         android:layout_margin="20dp"
         android:background="@color/colorPrimary"
         android:text="@string/track_countries"
+        android:shadowRadius="@android:integer/config_longAnimTime"
+        android:textStyle="bold"
         android:textColor="@android:color/white"
         android:textSize="16sp"
         android:padding="5dp"

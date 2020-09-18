@@ -25,7 +25,7 @@ import org.json.JSONObject;
 
 import java.io.StringReader;
 
-// --Khushank Mistry
+// -- Khushank Mistry
 
 public class MainActivity extends AppCompatActivity {
 
@@ -78,13 +78,11 @@ public class MainActivity extends AppCompatActivity {
                             tvDeathsToday.setText(jsonObject.getString("todayDeaths"));
                             tvAffectedCountries.setText(jsonObject.getString("affectedCountries"));
 
-
                             pieChart.addPieSlice(new PieModel("Cases",Integer.parseInt(tvCases.getText().toString()), Color.parseColor("#FFA726")));
                             pieChart.addPieSlice(new PieModel("Recovered",Integer.parseInt(tvRecovered.getText().toString()), Color.parseColor("#66BB6A")));
                             pieChart.addPieSlice(new PieModel("Deaths",Integer.parseInt(tvTotalDeaths.getText().toString()), Color.parseColor("#EF5350")));
                             pieChart.addPieSlice(new PieModel("Active",Integer.parseInt(tvActive.getText().toString()), Color.parseColor("#29B6F6")));
                             pieChart.startAnimation();
-
 
                             simpleArcLoader.stop();
                             simpleArcLoader.setVisibility(View.GONE);

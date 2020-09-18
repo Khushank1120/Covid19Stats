@@ -41,9 +41,8 @@ public class DetailsActivity extends AppCompatActivity {
         tvCritical.setText(AffectedCountries.countryModelsList.get(positionCountry).getCritical());
         tvActive.setText(AffectedCountries.countryModelsList.get(positionCountry).getActive());
         tvCasesToday.setText(AffectedCountries.countryModelsList.get(positionCountry).getTodayCases());
-        tvTotalDeaths.setText(AffectedCountries.countryModelsList.get(positionCountry).getDeaths());
+//        tvTotalDeaths.setText(AffectedCountries.countryModelsList.get(positionCountry).getDeaths());
         tvDeathsToday.setText(AffectedCountries.countryModelsList.get(positionCountry).getTodayDeaths());
-
 
 
     }
