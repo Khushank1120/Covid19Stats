@@ -40,10 +40,11 @@
             tools:ignore="DuplicateIds" />
 
     </RelativeLayout>
+
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/color_two"
+        android:layout_height="5dp"
+        android:background="#C90C19"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         />
@@ -81,8 +82,8 @@
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/color_two"
+        android:layout_height="5dp"
+        android:background="#C90C19"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         />
@@ -120,8 +121,8 @@
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/color_two"
+        android:layout_height="5dp"
+        android:background="#C90C19"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         />
@@ -159,8 +160,8 @@
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/color_two"
+        android:layout_height="5dp"
+        android:background="#C90C19"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         />
@@ -200,8 +201,8 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/color_two"
+        android:layout_height="5dp"
+        android:background="#C90C19"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         />
@@ -240,8 +241,8 @@
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/color_two"
+        android:layout_height="5dp"
+        android:background="#C90C19"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         />
@@ -280,8 +281,8 @@
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/color_two"
+        android:layout_height="5dp"
+        android:background="#C90C19"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         />
@@ -320,8 +321,8 @@
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/color_two"
+        android:layout_height="5dp"
+        android:background="#C90C19"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         />
